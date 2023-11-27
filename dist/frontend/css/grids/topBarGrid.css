@@ -1,0 +1,49 @@
+
+
+@media screen and (width>600px){
+    .comments__count{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .comments__orderByMenu{
+        grid-row: 1;
+        grid-column: 2; 
+    }
+
+    .comments__favorit{
+        grid-row: 1;
+        grid-column: 3; 
+    }
+}
+
+
+@media screen and (width<=600px) {
+    .comments__count{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .comments__orderByMenu{
+        grid-row: 2;
+        grid-column: 1; 
+    }
+    .comments__favorit{
+        grid-row: 2;
+        grid-column: 2; 
+    }
+}
+
+
+
+.comments__nav{
+    display: grid;
+    gap: 25px;
+    grid-template-columns:auto auto auto 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;  
+}
+
+
+
+

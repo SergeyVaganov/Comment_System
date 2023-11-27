@@ -1,0 +1,341 @@
+@media screen and (width >= 1440px)  {
+    .comments__SC-avatar,
+    .comments__SR-avatar {
+        grid-column: 1;
+        grid-row: 1/5;
+    }
+
+    .comments__SC-Name,
+    .comments__SR-Name {
+        grid-column: 2/4;
+        grid-row: 2;
+    }
+
+    .comments__SC-data {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .comments__SR-data {
+        grid-column: 7;
+        grid-row: 2;
+    }
+
+    .comments__SR-answerTo {
+        grid-column: 3/7;
+        grid-row: 2;
+    }
+
+    .comments__SC-text,
+    .comments__SR-text {
+        grid-column: 2/9;
+        grid-row: 4;
+    }
+
+    .comments__SC-replyTo {
+        grid-column: 2;
+        grid-row: 6;    
+    }
+
+    .comments__SC-favorit {
+        grid-column: 3/5;
+        grid-row: 6;  
+    }
+
+    .comments__SR-favorit {
+        grid-column: 2;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likePlus {
+        grid-column: 5;
+        grid-row: 6;  
+    }
+
+    .comments__SR-likePlus {
+        grid-column: 3;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likeSum {
+        grid-column: 6;
+        grid-row: 6;  
+    }
+    
+    .comments__SR-likeSum {
+        grid-column: 4;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likeMinus {
+        grid-column: 7;
+        grid-row: 6; 
+    }
+
+    .comments__SR-likeMinus {
+        grid-column: 5;
+        grid-row: 6; 
+    }   
+    
+    .comments__SC-replyCount {
+        grid-column: 2/-1;
+        grid-row: 8; 
+    }
+    
+    .comments__SC-input {
+        grid-column: 1/-1;
+        grid-row: 9; 
+    }
+    
+    .comments__SC-replyList {
+        grid-column: 1/-1;
+        grid-row: 10; 
+    }
+}
+
+@media screen and (width >= 600px) and (width < 1440px){
+    .comments__SC-avatar,
+    .comments__SR-avatar {
+        grid-column: 1;
+        grid-row: 1/5;
+    }
+
+    .comments__SC-Name,
+    .comments__SR-Name {
+        grid-column: 2/4;
+        grid-row: 2;
+    }
+
+    .comments__SC-data {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .comments__SR-data {
+        grid-column: 7;
+        grid-row: 2;
+    }
+
+    .comments__SR-answerTo {
+        grid-column: 3/7;
+        grid-row: 2;
+    }
+
+    .comments__SC-text,
+    .comments__SR-text {
+        grid-column: 2/9;
+        grid-row: 4;
+    }
+
+    .comments__SC-replyTo {
+        grid-column: 2;
+        grid-row: 6;    
+    }
+
+    .comments__SC-favorit {
+        grid-column: 3/5;
+        grid-row: 6;  
+    }
+
+    .comments__SR-favorit {
+        grid-column: 2;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likePlus {
+        grid-column: 5;
+        grid-row: 6;  
+    }
+
+    .comments__SR-likePlus {
+        grid-column: 3;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likeSum {
+        grid-column: 6;
+        grid-row: 6;  
+    }
+    
+    .comments__SR-likeSum {
+        grid-column: 4;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likeMinus {
+        grid-column: 7;
+        grid-row: 6; 
+    }
+
+    .comments__SR-likeMinus {
+        grid-column: 5;
+        grid-row: 6; 
+    }   
+    
+    .comments__SC-replyCount {
+        grid-column: 2/4;
+        grid-row: 8; 
+    }
+    
+    .comments__SC-input {
+        grid-column: 1/9;
+        grid-row: 9; 
+    }
+    
+    .comments__SC-replyList {
+        grid-column: 1/9;
+        grid-row: 10; 
+    }
+}
+
+@media screen and (width < 600px){
+    .comments__SR-avatar,   
+    .comments__SC-avatar {
+        grid-column: 1;
+        grid-row: 1/4;
+    }
+
+    .comments__SC-Name,
+    .comments__SR-Name {
+        grid-column: 2/4;
+        grid-row: 2;
+    }
+
+    .comments__SR-data {
+        grid-column: 3/9;
+        grid-row: 2;
+        justify-self: end;
+    }
+
+    .comments__SC-data {
+        grid-column: 3/9;
+        grid-row: 2;
+        justify-self: end;
+    }
+
+    .comments__SR-answerTo {
+        grid-column: 2/7;
+        grid-row: 3;
+    }
+
+    .comments__SC-text,
+    .comments__SR-text {
+        grid-column: 1/9;
+        grid-row: 4;
+    }
+
+    div .comments__SC-replyTo{
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    div .comments__SC-favorit{
+        grid-column: 2/4;
+        grid-row: 6;  
+    }
+
+    div .comments__SR-favorit {
+        grid-column: 1/3;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likePlus {
+        grid-column: 6;
+        grid-row: 5;  
+        justify-self: center;
+    }
+
+    .comments__SR-likePlus {
+        grid-column: 4;
+        grid-row: 5;  
+        justify-self: center;
+    }
+
+    .comments__SC-likeSum {
+        grid-column: 6;
+        grid-row: 6;  
+    }
+    
+    .comments__SR-likeSum {
+        grid-column: 4;
+        grid-row: 6;  
+    }
+
+    .comments__SC-likeMinus {
+        grid-column: 6;
+        grid-row: 7; 
+        justify-self: center;
+    }
+
+    .comments__SR-likeMinus {
+        grid-column: 4;
+        grid-row: 7; 
+        justify-self: center;
+    }   
+
+    .comments__SC-replyCount {
+        grid-column: 1/3;
+        grid-row: 7; 
+        align-self: center;
+    }
+
+    .comments__SC-input {
+        grid-column: 1/9;
+        grid-row: 9; 
+    }
+    
+    .comments__SC-replyList {
+        grid-column: 1/9;
+        grid-row: 10; 
+    }
+}
+
+
+.comments__SC-comment,
+.comments__SR-comment {
+    display: grid;
+    grid-template-columns: 80px auto auto auto auto auto auto 1fr;
+    grid-template-rows: repeat(8, auto);
+}
+
+.comments__SC-avatar,
+.comments__SR-avatar {
+    justify-self: center;
+    align-self:flex-start;
+}
+
+.comments__SC-Name,
+.comments__SR-Name {
+    justify-self: start;
+    align-self: center;
+}
+
+.comments__SC-data,
+.comments__SR-data {
+    align-self:center;
+}
+
+.comments__SC-likePlus,
+.comments__SR-likePlus{
+    align-self: center;
+}
+
+
+.comments__SC-likeSum, 
+.comments__SR-likeSum {
+    align-self: center;
+}
+
+.comments__SC-likeMinus, 
+.comments__SR-likeMinus {
+    align-self: center;
+} 
+
+.comments__SC-replyCount {
+    justify-self: start;
+}
+
+.comments__SR-answerTo {
+    align-self: center;
+    justify-self: start;
+}

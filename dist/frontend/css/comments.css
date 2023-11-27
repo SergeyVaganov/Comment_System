@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url("./comment.css");
+@import url("./topInput.css");
+@import url("./topBar.css");
+@import url('./grids/topBarGrid.css');
+@import url('./grids/topInputGrid.css');
+@import url('./grids/commentGrid.css');
+
+
+:root {
+    --color: #999999;
+    --color-favorit-selected: red;
+    --color-warning-message:red;
+    --color-submit:#ABD873;
+    --color-name:blue;
+    --color-likePlus:rgba(0, 255, 0, 0.2);
+    --color-likeMinus:rgba(255, 0, 0, 0.2)
+  }
+
+
+.comments div,
+.comments button, 
+.comments textarea{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+
+
+@media (width < 600px) { 
+    div .comments{
+        font-size: 16px;
+    }
+
+    div .comment__margin{
+        margin-left: 0px;
+    }
+}
+
+.comments{
+    font-size: 18px;
+    min-height: 500px;
+}
+
+.comments__hidden{
+    display: none;
+}
+
+.comments__visibility_hidden{
+    visibility: hidden;
+}

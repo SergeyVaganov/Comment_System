@@ -1,0 +1,30 @@
+{
+  "name": "sqlite3-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/index.js",
+  "type": "module",
+  "scripts": {
+    "working-server": "node ./dist/server/index.js", 
+    "demo-server": "cross-env USE_DB=demo nodemon index.js",
+    "createDEMO": "node dist/utils/creatDEMO.js",
+    "createDB": "node dist/utils/creatDB.js",   
+    "demo-start": "tsc -w -p tsconfig.json & cross-env USE_DB=demo nodemon -q -w index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
